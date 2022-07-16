@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <groups>
+  <run>
+  <include name ="sanity"/>
+  <include name ="regression"/>
+  </run>
+  </groups>
+  
+    <classes>
+      <class name="testNG.GroupingDemo"/>
+        <class name="testNG.NewTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
